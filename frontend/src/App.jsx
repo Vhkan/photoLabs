@@ -25,7 +25,7 @@ const App = () => {
    //Favorites and DisplayModal moved to Custom Hook useApplicationData
 
   //Importing useApplicationData custom hook
-  const { favorite, toggleFavorite, displayModal, updateDisplayModal, photoData, topicData, handleTopicClick, photoByTopic } = useApplicationData();
+  const { favorite, toggleFavorite, displayModal, updateDisplayModal, photoData, topicData, photoByTopic } = useApplicationData();
 
   return (
 
@@ -45,7 +45,6 @@ const App = () => {
         updateDisplayModal={updateDisplayModal}
         favorite={favorite}
         toggleFavorite={toggleFavorite}
-        handleTopicClick={handleTopicClick}
         photoByTopic={photoByTopic} />
 
 
