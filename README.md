@@ -10,7 +10,6 @@ PhotoLabs is a single page application built with React, designed for users to b
 * Clicking on the page logo redirects the user to the home page.
 * Dark mode can be activated by clicking on the 'dark' button.
 
-
 ## Final Product
 
 ![Home Page](https://github.com/Vhkan/photoLabs/blob/main/documents/homeView.png "Home Page View")

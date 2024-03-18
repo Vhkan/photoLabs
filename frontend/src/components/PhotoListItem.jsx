@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/PhotoListItem.scss";
 import PhotoFavButton from "./PhotoFavButton";
-// import PhotoDetailsModal from "../routes/PhotoDetailsModal";
 
 const PhotoListItem = ({ photo, favorite, toggleFavorite, updateDisplayModal, similarPhotoes }) => {
 
