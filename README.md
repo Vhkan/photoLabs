@@ -12,10 +12,9 @@ PhotoLabs is a single page application built with React, designed for users to b
 
 ## Final Product
 
-![Home Page](https://github.com/Vhkan/photoLabs/blob/main/documents/homeView.png "Home Page View")
-![Modal View Page lg](https://github.com/Vhkan/photoLabs/blob/main/documents/modalView.Lg.png "Modal View with selected photo")
-![Modal View Page sm](https://github.com/Vhkan/photoLabs/blob/main/documents/modalViewSm.png "Modal View with smaller-sized photos")
-![Dark Mode View](https://github.com/Vhkan/photoLabs/blob/choose-your-own-adventure/documents/darkModeView.png "Dark Mode")
+![Home Page](https://github.com/Vhkan/photoLabs/blob/main/documents/homeViewPage.png "Home Page View")
+![Modal View Page lg](https://github.com/Vhkan/photoLabs/blob/main/documents/modalViewPageLg.png "Modal View with selected photo")
+![Modal View Page sm](https://github.com/Vhkan/photoLabs/blob/main/documents/modalViewPageSm.png "Modal View with smaller-sized photos")
 
 ## Setup
 
