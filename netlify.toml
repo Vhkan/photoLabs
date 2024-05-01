@@ -12,5 +12,5 @@
   command = "npm run build"
 
 [build.environment]
-  REACT_APP_API_BASE_URL = "https://main--photolabsbylhl.netlify.app/"
-  REACT_APP_WEBSOCKET_URL = "wss://main--photolabsbylhl.netlify.app/
+  REACT_APP_API_BASE_URL = "https://photolabsbylhl.netlify.app"
+  REACT_APP_WEBSOCKET_URL = "wss://photolabsbylhl.netlify.app"
