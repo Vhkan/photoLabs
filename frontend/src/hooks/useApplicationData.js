@@ -21,6 +21,7 @@ const initialState = {
   topicData: []
 };
 
+//CHANGE ROUTES HERE
 
 // Refactoring using useState =>
 //A function that takes the current state and action, returns a new state based on the action type.

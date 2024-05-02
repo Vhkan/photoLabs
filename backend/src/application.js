@@ -31,7 +31,15 @@ function read(file) {
 module.exports = function application(
   ENV,
 ) {
-  app.use(cors());
+  //Modified cors for vercel deployment 
+  app.use(cors(
+    {
+      origin: ["https://"],
+      methods: ["POST", "GET"],
+      credentials: true
+    }
+  ));
+
   app.use(helmet());
   app.use(bodyparser.json());
   app.use(express.static(path.join(__dirname, 'public')));
