@@ -32,7 +32,13 @@ module.exports = function application(
   ENV,
 ) {
   //Modified cors for vercel deployment 
-  app.use(cors());
+  app.use(cors(
+    {
+      origin: ["https://photo-labs-be-api.vercel.app"],
+      methods: ["POST", "GET"],
+      credentials: true
+    }
+  ));
 
   app.use(helmet());
   app.use(bodyparser.json());
