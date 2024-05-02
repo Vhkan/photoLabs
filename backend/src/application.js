@@ -34,7 +34,7 @@ module.exports = function application(
   //Modified cors for vercel deployment 
   app.use(cors(
     {
-      origin: ["https://photo-labs-be-api.vercel.app"],
+      origin: ["https://photo-labs-be-api.vercel.app/"],
       methods: ["POST", "GET"],
       credentials: true
     }
